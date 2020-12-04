@@ -2,7 +2,7 @@ module.exports = [
   {
 	  type: "input",
   	name: "name",
-	  message: "ths resgistery is private?" 
+	  message: "project name?" 
   }, 
   {
     type: "input",
