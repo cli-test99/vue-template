@@ -1,8 +1,7 @@
-
 module.exports = [
   {
-	  type: "confirm",
-  	name: "private",
+	  type: "input",
+  	name: "name",
 	  message: "ths resgistery is private?" 
   }, 
   {
@@ -15,9 +14,4 @@ module.exports = [
     name: "description",
     message: "description?"
   }, 
-  {
-    type: "input",
-    name: "license",
-    message: "license?"
-  }
 ]
