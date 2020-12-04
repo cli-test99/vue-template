@@ -1,6 +1,8 @@
 {
-  "name": "{{ name }}",
-  "version": "0.1.0",
+  "name": "<%=name>",
+  "autor":"<%=author%>",
+  "description": "<%=description%>",
+  "version": "0.1.2",
   "private": "false",
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -9,8 +11,6 @@
   "dependencies": {
     "vue": "^2.6.10"
   },
-  "autor":"{{ autor }}",
-  "description": "{{ description }}",
   "devDependencies": {
     "@vue/cli-service": "^3.11.0",
     "vue-template-compiler": "^2.6.10"
